@@ -7,6 +7,14 @@ html {
 body {
   margin: 0;
 }
+.photo{
+    float:left;
+    width:20%;
+}
+.intro{
+    float:right;
+    width:80%;
+}
 article,
 aside,
 details,
