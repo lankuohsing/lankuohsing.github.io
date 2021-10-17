@@ -1,78 +1,240 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Guoxing Lan's Home</title>
-<hr>
+
+  <title>Guoxing Lan's Homepage</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Guoxing Lan is currently a senior AI algorithm angineer at Huawei Huawei Consumer Business Group">
+  <meta name="keywords" content="Guoxing Lan, 兰国兴, languoxing, Guoxing, Lan, Maching Learning, Deep Learning, Natural Language Processing, Huawei, Tsinghua, ">
+  <meta name="author" content="Guoxing Lan" />
+
+  <link rel="stylesheet" href="w3.css">
+
+  <style>
+  .w3-sidebar a {font-family: "Roboto", sans-serif}
+  body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+  </style>
+
+  <link rel="icon" type="image/png" href="images/icons.png">
+  <!--
+  <script src="jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+  //-->
+
 </head>
 
-<body>
-<img src="/images/avatar.jpg" alt="Avatar" width="305" height="240" style="float:right;width=30%">
-<div style="float:left; width=70%; line-height:150%;">
-  <h1>Guoxing Lan(兰国兴)</h1>
-  <i>Artificial Intelligence Algorithm Engineer</i><br />
-  <div style="height:5px;"><br></div>
-  <b>Research Interests: Natural Language Processing, Machine Learning.</b><br />
-  <div style="height:5px;"><br></div>
-  Email: languoxing[AT]tsinghua[DOT]org[DOT]cn<br />
-  <div style="height:5px;"><br></div>
-  <a href="blog/">Tech-Blog</a> &ensp;&ensp;<a href="https://github.com/lankuohsing">GitHub</a>&ensp;&ensp; <a href="https://www.linkedin.com/in/guoxing-lan/">LinkedIn</a>&ensp;&ensp; <a href="https://scholar.google.com/citations?user=z1gmp_AAAAAJ&hl=en">Google Scholar</a><br />
-</div>
 
-</body>
-<body>
-<br />
-<h2>Who am I?</h2>
-<div style="line-height: 150%;">
-Hi, I'm <b>Guoxing Lan(兰国兴）</b>! I'm currently an algorithm engineer at Huawei Consumer Business Group in Shanghai. I obtained my master's degree and bachelor's degree both from Tsinghua University in Beijing, China. My interests are in Machine Learning and Deep Learning theories and their applications especially in NLP(Natural Language Processing). Besides, I have some research experiences in data-driven fault diagnosis during my master study. I enjoy writing technical blogs, and I believe the best way to learning new knowledge is by explaining it clearly to other people. If you have any questions or any ideas to discuss with me, feel free to contact me by email(langx15 [AT] tsinghua.org.cn), or add my WeChat number(lankuohsing)</a>. 
-</div>
-<br />
-<h2>Education</h2>
-<ul style="list-style-type:disc">
-  <li><b>Department of Automation , Tsinghua University.</b>&ensp;Sep. 2015 – July 2018</li>
-  <i>M.Sc. in Control Science and Engineering; supervisor: Prof. Nong Cheng and Prof. Qing Li</i><br />
-  <div style="height:5px;"><br></div>
-  <li><b>School of Economics and Management , Tsinghua University.</b>&ensp;Aug. 2013 – July 2015</li>
-  <i>B. Ec. in Economics (For Second Bachelor Degree); Excellent graduation thesis</i><br />
-  <div style="height:5px;"><br></div>
-  <li><b>Department of Automation, Tsinghua University.</b>&ensp;Aug. 2011 – July 2015</li>
-  <i>B. Eng. in Automation</i><br />
-  <div style="height:5px;"><br></div>
-</ul> 
+<body class="w3-content" style="max-width:1000px">
 
-<h2>Work Experience</h2>
-<ul style="list-style-type:disc">
-<div style="line-height: 150%;">
-<li><b>Huawei Consumer Business Group.</b>&ensp; Aug. &ensp;2018 – Present</li>
-<i>AI Algorithm Engineer (Senior)(Full-time)</i><br />
-Research on On-Device AI models; Design and implement custom operators for neural networks to accelerate On-Device AI models;<br />
-Implemented machine learning algorithms for domain detection and task re-ranking in Huawei’s voice assistant (Xiaoyi);<br />
-Applied for 3 patents; 1 for dialogue system (published) and 2 for On-Device AI (submitted).<br />
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:150px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <h3><b>GUOXING</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <a href="#news" class="w3-bar-item w3-button">News</a>
+    <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+    <a href="#talks" class="w3-bar-item w3-button">Talks</a>
+    <a href="#publications" class="w3-bar-item w3-button">Research</a>
+    <a href="#service" class="w3-bar-item w3-button">Services</a>
+    <a href="#award" class="w3-bar-item w3-button">Awards</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24">GUOXING</div>
+  <div class="w3-bar-item w3-padding-24">GUOXING</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right"  style="font-stretch: extra-expanded;" onclick="w3_open()"><b>≡</b></a>
+  </div>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:150px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+<!-- The Home Section -->
+    <div class="w3-container w3-center w3-padding-32" id="home">
+      <img style="width: 80%;max-width: 320px" alt="profile photo" src="images/avatar.jpg">
+      <h1>Guoxing Lan</h1>
+        <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
+          I am a senior algorithm engineer at <a href="https://www.noahlab.com.hk/">Huawei Huawei Consumer Business Group</a>, Shanghai, where I work on applications of machine learning/deep learning and their accelerations. Before that, I obtained a master's degree in Control Science and Engineering and a bachelor's degree in Automation from Department of Automation, and a second bachelor's degree in economics from School of Economics and Management in <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>.
+        </p>
+        <p class="w3-center">
+          <a href="langx15@tsinghua.org.cn ">Email</a> &nbsp/&nbsp
+          <a href="https://scholar.google.com/citations?user=z1gmp_AAAAAJ">Google Scholar</a> &nbsp/&nbsp
+          <a href="https://github.com/lankuohsing"> Github </a> &nbsp/&nbsp
+          <a href="https://blog.csdn.net/thuchina"> CSDN Blog(in Chinese) </a>
+        </p>
+        </tbody></table>
+  </div>
+
+<!-- The News Section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="news">
+   <h2>News</h2>
+      <p><li> 05/2020, I changed my base from Beijing to Shanghai. </li></p>
+      
+
+  </div>
+<!-- The Projects Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h2>Recent Projects</h2>
+    <p class="w3-justify">
+        I have done some projects based on machine learning/deep learning methods.
+    </p>
+
+        <h4><li>Remaining-Useful-Life-Prediction-RNN</li></h4>
+        <img style="width:96%;" src="images/aircraft-engine.jpeg"> 
+        <p class="w3-justify">
+        <a style="color: #447ec9" href="https://github.com/lankuohsing/Remaining-Useful-Life-Prediction-RNN">Project Page</a> | <a style="color: #447ec9" href="https://ieeexplore.ieee.org/abstract/document/9019107/">Paper</a>
+        </p>
+        <p class="w3-justify">
+        This project was finished during my master's study.
+        </p> 
  
-<div style="height:5px;"><br></div>
-<li><b>JD Group.</b>&ensp; Aug. 2017 – Nov. 2017</li>
-<i>Algorithm Engineer Intern</i><br />
-Focused on optical character recognition algorithms for train tickets.<br /> 
-<div style="height:5px;"><br></div>
+
+  </div>
+  
+  <!-- The Talks Section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="talks">
+    <h2>Talks</h2>
+	TODO
+  </div>
+ <!-- The Publications Section -->
+  <div class="w3-container w3-padding-32"" id="publications">
+    <h2>Research</h2>
+      <p class="w3-left-align" style="line-height:200%">
+        My interests are in Machine Learning and Deep Learning theories and their applications especially in NLP(Natural Language Processing). Besides, I have some research experiences in data-driven fault diagnosis during my master study. 
+      </p>
+    <h4> Conference Papers:</h4>
+
+    <ol>
+      
+      <p>
+      <li><strong>Remaining Useful Life Estimation of Turbofan Engine Using LSTM Neural Networks</strong>
+      <br>
+      <strong>Guoxing Lan</strong>, Qing Li, Nong Cheng
+      <br>
+      <em>CGNCC</em> 2018 | <a style="color: #447ec9" href="https://ieeexplore.ieee.org/abstract/document/9019107/">paper</a>
+      </p>
+
+      <p>
+      <li><strong>Comparison and fusion of various classification methods applied to aero-engine fault diagnosis</strong>
+      <br>
+      <strong>Guoxing Lan</strong>, Nong Cheng, Qing Li
+      <br>
+      <em>CCDC</em> 2017
+      </p>
+
+
+      </ol>
+
+    </p>
+  </div>
+
+<!-- The Services Section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="service">
+    <h2>Services</h2>
+      <p><li> Area Chair of <a href="https://ieeexplore.ieee.org/xpl/conhome/7961861/proceeding">CCDC 2017</a>.</p>
+
+  </div>
+
+  <!-- The Awards Section -->
+  <div class="w3-container w3-padding-32" id="award">
+    <h2>Awards</h2>
+    TODO
+  </div>  
+
+  <div class="w3-light-grey w3-center w3-padding-24">
+
+    In the Journey to Truth. &#10025;</a></br>
+
+  <!-- Default Statcounter code for Yunhe Wang's Homepage
+  https://www.wangyunhe.site -->
+  No.
+  <script type="text/javascript">
+  var sc_project=12347113; 
+  var sc_invisible=0; 
+  var sc_security="21aca5d1"; 
+  var sc_https=1; 
+  var scJsHost = "https://";
+  document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+  "statcounter.com/counter/counter.js'></"+"script>");
+  </script> Visitor Since Oct 2021. Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a>
+  <noscript>
+    <div class="statcounter"><a title="Web Analytics Made Easy -
+  StatCounter" href="https://statcounter.com/" target="_blank"><img
+  class="statcounter" src="https://c.statcounter.com/12347113/0/21aca5d1/0/"
+  alt="Web Analytics Made Easy - StatCounter"></a></div>
+  </noscript>
+  <!-- End of Statcounter Code -->
+
+  </div>
+
+  <!-- End page content -->
 </div>
-</ul> 
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
 
 
-<h2>Research Experience</h2>
-<ul style="list-style-type:disc">
-<div style="line-height: 150%;">
-<li><b>Department of Automation , Tsinghua University.</b>&ensp;Sep. 2016 – Feb. 2018</li>
-<i>Research Assistant; Supervisor: Prof. Nong Cheng and Prof. Qing Li</i><br />
-Modeling and simulation of turbofan engine; Data-driven fault diagnosis and remaining useful life estimation.<br />
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
  
-<div style="height:5px;"><br></div>
-<li><b>Department of Electrical and Computer Engineering, University of Alberta.</b> &ensp; 2017 – Nov. 2017</li>
-<i>Research Intern; supervisor: Prof. Venkata Dinavahi</i><br />
-Implemented PSO algorithms to solve nonlinear constrained optimization problems.<br /> 
-<div style="height:5px;"><br></div>
-</div>
-</ul> 
-
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
 
 </body>
 </html>
